@@ -131,13 +131,24 @@
       </main>
       
       <footer>
-            <h4 id="contact"> Contact Multitasking Ecology</h4>
+            <h4 id="contact"> Contact Multitasking Ecology</h4><br>
+            <a id="button">
+                Contact me
+            </a>
+            <p id="empty"></p>
             <p>g@g.com</p>
             <p>917-555-0000</p>
         </footer>
         <div class="copyright-footer">
             <p>&copy; copyright Multitasking Ecology 2023</p>
         </div>
+      <script>
+        let o_button = document.getElementById('button');
+        o_button.onclick = function() { 
+  document.getElementById("empty").innerHTML= "write to info@multitaskingecology.com" 
+};
+
+      </script>
       
       
   
